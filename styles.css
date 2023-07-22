@@ -209,6 +209,43 @@ a{
 
 
 
+/* here  */
+#scrollToTopBtn {
+  
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: transparent;
+  background-image: url('sword.svg');
+  
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+
+  margin-right:0;
+  position: fixed;
+}
+
+#scrollToTopBtn img{
+    width:100%;
+    display: block;
+    filter:invert(1);
+}
+#scrollToTopBtn .arrow-up {
+  /* Styles for your arrow icon (if using an icon library or SVG) */
+  /* For example, you can use Font Awesome like this: */
+  /* font-family: "Font Awesome 5 Free"; */
+  /* content: "\f077"; */
+  
+}
+
+/*here */
+
+
+
   
 @media (max-width:800px){
 
