@@ -22,7 +22,7 @@ function togglePopUp() {
 }
 const fun=togglePopUp;
 
-setTimeout(fun,10000);
+setTimeout(fun,6000);
 
 
 
