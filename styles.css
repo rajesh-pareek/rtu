@@ -1,0 +1,171 @@
+
+html{
+    box-sizing:border-box;
+    font-size:16px;
+}
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #1D1D1D;
+}
+
+.container{
+    width:100%;
+    height:auto;
+    background-color: #252525;
+    position:absolute;
+    display:flex;
+    flex-direction:col;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    gap:20px;
+
+}
+section{
+    width:97%;
+    height:auto;
+    background-color: #1D1D1D;
+    padding:10px;
+    margin:10px auto;
+    border-radius:10px;
+    border:1px solid #333;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+section h1{
+    color:#2272FF;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:1.8rem;
+    font-weight:bold;
+    
+}
+section p{
+    color:rgb(178, 190, 234);
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:1.5rem;
+    
+}
+span{
+    font-weight:bold;
+    font-size:1.2rem;
+    color:rgb(107, 98, 82);
+    font-family: 'Caveat', cursive;
+    margin-right:10px;
+}
+code{
+    color:grey;
+}
+li{
+    color:rgb(229, 228, 228);
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    
+}
+.golden li{
+    color:goldenrod
+}
+
+
+
+#main-doc{
+    width:100%;
+}
+
+
+
+
+
+a{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.intro{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    gap:20px;
+    align-items:flex-start;
+}
+
+.img-container{
+
+    border-radius:10px;
+    border:1px solid #333;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    overflow:hidden;
+    vertical-align: middle;
+    
+    
+}
+
+.decription{
+    width:100%;
+    height:auto;
+    background-color: #1D1D1D;
+    padding:10px;
+    margin:10px auto;
+    border-radius:10px;
+    border:1px solid #333;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    gap:20px;
+    align-items:flex-start;
+    color:rgb(229, 228, 228);
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    font-size:1.2rem;
+    text-align:left;
+    line-height:1.5rem;
+    padding:10px;
+    margin:10px auto;
+    border-radius:10px;
+    border:1px solid #333;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
+    
+}
+.description ul li{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-align:left;
+}
+
+.giru-img{
+    width:100%;
+    display: block;
+   
+
+}
+    
+
+@media (max-width:800px){
+
+    section p{
+        font-size:1.3rem;
+    }
+    .intro{
+        flex-direction:column;
+        align-items:flex-start;
+
+    }
+    .description{
+        width:100% 1important;
+    }
+    .img-container{
+        width:100%;
+    }
+    .decription  ul li{
+        margin-left:0px;
+    }
+}
+
